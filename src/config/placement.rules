@@ -1,0 +1,20 @@
+Placement-rules:
+atom: "*"              m
+atom: "[C]"            m                           
+atom: "[C]=,@*"        mdzq                         
+atom: "[C](=,@*)=,@*"  mdzqz                        
+atom: "[C]#*"          mdzq                         
+atom: "[O]"            mdzq                         
+atom: "[N]"            mdzqz                        
+atom: "[N]A=,@A"       mqz                         
+atom: "[N]a"           mqz                         
+atom: "[F]"            m                           
+atom: "[Cl]"           mdzqz                        
+atom: "[Br]"           mdzqz                        
+atom: "[I]"            mdzqz
+atom: "[At]"           mdzqz
+atom: "[F]a"           m                           
+atom: "[Cl]a"          mqz                         
+atom: "[Br]a"          mqz                         
+atom: "[I]a"           mqz
+atom: "[At]a"          mqz

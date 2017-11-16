@@ -1,0 +1,24 @@
+Orient-rules:
+rule: z "*"                                              /* any atom */
+rule: a "[!#99X1][!#99]"                                 /* Br in CBr */
+rule: a "[!#99X2]([!#99])[#99]"                          /* Br in CBr-Du */
+rule: a "[!#99D1X4]-[!#99]"                              /* CH3 in CCH3 */
+rule: a "[!#99]#[!#99]"                                  /* any in C#N C#C*/
+rule: b "[!#99X1][!#99]=,:[!#99]"                        /* Br in C=C-Br */
+rule: b "[!#99X2]([!#99]=,:[!#99])-[#99]"                /* Br in C=C-Br-Du */
+rule: b "[!#99H3][!#99][!#99]"                           /* CH3 in C-C-CH3 */
+rule: b "[!#99D1X4][!#99]=,:[!#99]"                      /* CH3 in C=C-CH3 */
+rule: c "[!#99](@[!#99])@[!#99]"                         /* ring atoms */
+rule: b "[!#99X1]=[!#99][!#99]"                          /* O in CC=O */
+rule: b "[!#99X1]=[!#99][N,O,S]"                         /* carbonyl O in ester */
+rule: a "[!#99X1]=[!#99X2]=[!#99]"                       /* O in C=C=O ketene */
+rule: c "[!#99X2]([!#99])[!#99]"                         /* O in COC */
+rule: c "[!#99X2](=[!#99X1])[!#99]"                      /* N in CN=O */
+rule: d "[!#99X3](-[!#99])(-[!#99])-[!#99]"              /* N in CN(C)C */
+rule: d "[!#99X4](-[!#99])(-[!#99])(-[!#99])-[#99]"      /* N in CN(C)C with dummy */
+rule: b "[!#99X3](-[!#99])(-[!#99]=[!#99])-[!#99]"       /* N in amide */
+rule: c "[!#99X3](-[!#99])(-[!#99]=[!#99])-[#1]"         /* N in NH in amide */
+rule: c "[!#99X2](-[!#99])-[!#99]=[!#99]"                /* alcoholic O in ester */
+rule: b "[!#99X3](=[!#99])(-[N,O,S])-[!#99]"             /* C in amide or ester */
+rule: b "[!#99X3]([!#99])(=[!#99X1])=[!#99X1]"           /* -N(=O)=O nitro */
+rule: b "[!#99X3+1]([!#99])(-[!#99X1-1])=[!#99X1]"       /* -N(=O)=O nitro */
